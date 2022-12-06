@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "idiots_visitors_notes",
+  "info": {
+    "singularName": "idiots-visitors-note",
+    "pluralName": "idiots-visitors-notes",
+    "displayName": "idiotsVisitorsNote"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "visitor": {
+      "type": "string",
+      "required": true
+    },
+    "comment": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
